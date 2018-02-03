@@ -1,4 +1,4 @@
-This script can be used as a base to similar bruteforce HTTP applications. It's necessary to have 'tac' and 'crunch' installed in your Linux or MacOS: "sudo apt-get install tac crunch"
+This script can be used as a base to similar bruteforce HTTP applications. It's necessary to have 'tac' and 'crunch' installed: "sudo apt-get install tac crunch", on Linux, or "brew install tac crunch", for MacOS.
 
 Usage from terminal: python bruteforcepin.py
 
