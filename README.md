@@ -6,4 +6,4 @@ Once executed, crunch will create a text file with 10^(number of digits of the P
 
 The website must also accept GET requests to input the PIN. You need to modify the variable "url" on the script with the correct address.
 
-This is for educational purposes only. Use it only in accordance with the law; I'm not responsible for its use. In any case, most websites have protections against too many failed attempts, so be advised.
+This is for educational purposes only. I wrote this code due to a Capture the Flag (CtF) challenge. Use it only in accordance with the law; I'm not responsible for its use. In any case, most websites have protections against too many failed attempts, so be advised.
