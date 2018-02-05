@@ -1,4 +1,4 @@
-This script can be used as a base to similar bruteforce HTTP applications. It's necessary to have 'tac' and 'crunch' installed: "sudo apt-get install tac crunch", on Linux, or "brew install tac crunch", for MacOS. Instead, you can just use bash, although you would have to modify the python script: "for i in {0001..1000}; do echo $i >> arq.txt; done". I don't know why, but, on MacOS, it doesn't append the zeros, which are mandatory. I'll probably implement it with Python code later, but not now.
+This script can be used as a base to similar bruteforce HTTP applications. It's necessary to have 'tac' and 'crunch' installed: "sudo apt-get install tac crunch", on Linux, or "brew install tac crunch", for MacOS. Instead, you can just use bash, although you would have to modify the python script: "for i in {0001..9999}; do echo $i >> arq.txt; done". I don't know why, but, on MacOS, it doesn't append the zeros, which are mandatory. I'll probably implement it with Python code later, but not now.
 
 Usage from terminal: python bruteforcepin.py
 
